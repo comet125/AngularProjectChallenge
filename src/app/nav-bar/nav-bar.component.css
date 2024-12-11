@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002e33;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #00aabd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+button:hover {
+  background-color: #a4f4fc;
+  color: black;
+  border-radius: 0;
+  transition: 0.5s;
+}
+
+
+#mateoLogo {
+  text-align: center;
+  font-family: "Michroma", sans-serif;
+  font-size: 22px;
+}

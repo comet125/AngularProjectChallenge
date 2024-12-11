@@ -1,0 +1,9 @@
+<div id="gridPreview">
+  <app-product-card
+    *ngFor="let item of productList"
+    [productTitle]="item.naslov"
+    [productURL]="item.url"
+    [productDesc]="item.text"
+    [productPrice]="item.broj">
+  </app-product-card>
+</div>

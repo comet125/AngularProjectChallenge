@@ -1,0 +1,8 @@
+#gridPreview {
+  display: flex;
+  width: 100%;
+  margin-bottom: 100px;
+  flex-wrap: wrap; /* Allow cards to wrap onto the next line if needed */
+  justify-content: center; /* Center cards horizontally */
+  gap: 20px; /* Add spacing between cards */
+}
